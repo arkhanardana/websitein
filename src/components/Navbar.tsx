@@ -42,7 +42,7 @@ export default function Navbar() {
 				<div className="flex justify-between h-16">
 					<div className="flex-shrink-0 flex items-center">
 						<Link href="/" className="text-2xl font-bold text-blue-600">
-							<Image src={logo.url} alt="logo-websitein" width={100} height={100} loading="lazy" />
+							<Image src={logo.url} alt="logo-websitein" width={70} height={100} loading="lazy" />
 						</Link>
 					</div>
 					<div className="hidden md:flex items-center space-x-4">
