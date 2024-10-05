@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function HeroSection() {
 	return (
-		<div className="text-center pt-[8.5rem] flex flex-col items-center justify-center">
+		<div className="text-center pt-[5rem] sm:pt-[14rem] flex flex-col items-center justify-center">
 			<div className="flex items-center justify-center">
 				<div
 					className={cn(

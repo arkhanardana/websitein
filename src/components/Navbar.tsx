@@ -24,7 +24,7 @@ export default function Navbar() {
 	}, []);
 
 	const menuItems = [
-		{ href: "/", label: "About" },
+		{ href: "#about", label: "About" },
 		{ href: "/", label: "Services" },
 		{ href: "/", label: "Projects" },
 		{ href: "/", label: "Pricing" },
@@ -33,18 +33,17 @@ export default function Navbar() {
 	];
 
 	const logo = {
-		url: "/assets/logo.jpeg",
+		url: "/assets/logo.png",
 	};
 
 	return (
-		<nav className="my-5 sticky top-0 bg-white" ref={navRef}>
+		<nav className="my-3 sticky top-0 bg-white z-50" ref={navRef}>
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="flex justify-between h-16">
-					<div className="flex-shrink-0 flex items-center">
-						<Link href="/" className="text-2xl font-bold text-blue-600">
-							<Image src={logo.url} alt="logo-websitein" width={70} height={100} loading="lazy" />
-						</Link>
-					</div>
+					<Link href="/" className="text-2xl font-bold text-black flex items-center">
+						<Image src={logo.url} alt="logo-websitein" width={65} height={80} loading="lazy" />
+						<h1 className="hidden md:flex md:text-lg md:font-normal">Websitein</h1>
+					</Link>
 					<div className="hidden md:flex items-center space-x-4">
 						{menuItems.map((item) => (
 							<Link

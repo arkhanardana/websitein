@@ -15,8 +15,8 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
-			<link rel="icon" href="/assets/logo.jpeg" className="mix-blend-difference" />
+		<html lang="en" className="scroll-smooth">
+			<link rel="icon" href="/assets/logo.png" />
 			<body className={font.className}>{children}</body>
 		</html>
 	);
