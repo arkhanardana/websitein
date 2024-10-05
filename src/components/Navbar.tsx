@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar() {
-	const [isOpen, setIsOpen] = useState(false);
+	const [isOpen, setIsOpen] = useState<boolean>(false);
 	const navRef = useRef<HTMLDivElement>(null);
 
 	const toggleMenu = () => setIsOpen(!isOpen);
@@ -37,7 +37,7 @@ export default function Navbar() {
 	};
 
 	return (
-		<nav className="my-5" ref={navRef}>
+		<nav className="my-5 sticky top-0 bg-white" ref={navRef}>
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="flex justify-between h-16">
 					<div className="flex-shrink-0 flex items-center">
