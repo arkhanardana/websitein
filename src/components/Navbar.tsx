@@ -60,6 +60,7 @@ export default function Navbar() {
 						<button
 							onClick={toggleMenu}
 							className="text-gray-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+							aria-label={isOpen ? "Close menu" : "Open menu"}
 						>
 							{isOpen ? (
 								<svg
