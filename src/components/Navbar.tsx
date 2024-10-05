@@ -25,8 +25,8 @@ export default function Navbar() {
 
 	const menuItems = [
 		{ href: "#about", label: "About" },
-		{ href: "/", label: "Services" },
-		{ href: "/", label: "Projects" },
+		{ href: "#services", label: "Services" },
+		{ href: "/", label: "Benefits" },
 		{ href: "/", label: "Pricing" },
 		{ href: "/", label: "Testimonials" },
 		{ href: "/", label: "FAQ" },
@@ -45,9 +45,9 @@ export default function Navbar() {
 						<h1 className="hidden md:flex md:text-lg md:font-normal">Websitein</h1>
 					</Link>
 					<div className="hidden md:flex items-center space-x-4">
-						{menuItems.map((item) => (
+						{menuItems.map((item, index) => (
 							<Link
-								key={item.href}
+								key={index}
 								href={item.href}
 								className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium"
 							>
@@ -99,9 +99,9 @@ export default function Navbar() {
 			{isOpen && (
 				<div className="md:hidden">
 					<div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-						{menuItems.map((item) => (
+						{menuItems.map((item, index) => (
 							<Link
-								key={item.href}
+								key={index}
 								href={item.href}
 								className="text-gray-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
 								onClick={toggleMenu}

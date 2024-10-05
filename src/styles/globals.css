@@ -5,6 +5,7 @@
 body {
 	color: var(--background);
 	background: var(--foreground);
+	min-height: 2000rem;
 }
 
 @layer utilities {
