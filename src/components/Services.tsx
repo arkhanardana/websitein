@@ -1,5 +1,5 @@
 import React from "react";
-import { Building2, FolderKanban, BookOpen, Wrench, LucideIcon } from "lucide-react";
+import { Building2, BookOpen, Wrench, LucideIcon, UserRoundPen } from "lucide-react";
 
 interface ServiceCardProps {
    icon: React.ReactElement<LucideIcon>;
@@ -38,7 +38,7 @@ const ServicesSection = () => {
                   description="Tampilkan identitas dan keunggulan bisnis dengan profil perusahaan yang profesional."
                />
                <ServiceCard
-                  icon={<FolderKanban className="h-8 w-8 text-white" />}
+                  icon={<UserRoundPen className="h-8 w-8 text-white" />}
                   title="Portofolio"
                   description="Pamerkan proyek-proyek terbaik kamu dalam portofolio yang keren dan menarik."
                />
