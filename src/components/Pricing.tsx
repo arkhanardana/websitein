@@ -78,7 +78,7 @@ export default function Pricing() {
                         </ul>
                         <Button
                            onClick={() => handleWhatsAppClick(plan.whatsappMessage)}
-                           className={`w-full py-4 ${plan.popular
+                           className={`w-full py-6 ${plan.popular
                               ? "bg-gradient-to-r from-blue-500 to-blue-800 hover:from-blue-600 hover:to-blue-900"
                               : "bg-gray-800 hover:bg-gray-700"
                               } text-white font-semibold rounded-xl transition-colors duration-300 text-lg`}
