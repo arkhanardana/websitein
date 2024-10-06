@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function HeroSection() {
 	return (
-		<div className="bg-gray-50 text-center py-[6rem] sm:py-[14rem] flex flex-col items-center justify-center">
+		<section className="bg-gray-50 text-center py-[6rem] lg:py-[16rem] flex flex-col items-center">
 			<div className="flex items-center justify-center">
 				<div
 					className={cn(
@@ -23,7 +23,7 @@ export function HeroSection() {
 			</div>
 			<h1 className="max-w-lg mx-auto px-4 text-4xl sm:text-5xl font-semibold pt-7 md:text-6xl md:max-w-2xl lg:max-w-4xl lg:px-8">
 				Solusi {""}
-				<span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 text-transparent bg-clip-text">
+				<span className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text">
 					Jasa Pembuatan Website {""}
 				</span>
 				Keren dan Modern
@@ -31,12 +31,11 @@ export function HeroSection() {
 			<p className="text-center text-base md:text-xl font-medium max-w-lg md:max-w-2xl mx-auto px-4 text-gray-600/90 py-4">
 				Websitein adalah Jasa Pembuatan Website dengan menerapkan desain yang kreatif serta modern
 			</p>
-
 			<div className="flex gap-x-2 pt-2 items-center justify-center">
 				<Link href={"https://wa.me/628989098432?text=Saya%20mau%20pesan"}>
 					<RainbowButton>Pesan Sekarang</RainbowButton>
 				</Link>
 			</div>
-		</div>
+		</section>
 	);
 }
