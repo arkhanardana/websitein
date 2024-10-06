@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function HeroSection() {
 	return (
-		<section className="bg-gray-50 text-center py-[6rem] lg:py-[16rem] flex flex-col items-center">
+		<section className="bg-white text-center py-[6rem] lg:py-[16rem] flex flex-col items-center">
 			<div className="flex items-center justify-center">
 				<div
 					className={cn(

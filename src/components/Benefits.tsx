@@ -1,6 +1,6 @@
 import { Zap, Rocket, PenTool } from 'lucide-react'
 
-export default function ModernBenefits() {
+export default function Benefits() {
    const benefits = [
       {
          title: "Development Cepat",
@@ -20,13 +20,13 @@ export default function ModernBenefits() {
    ]
 
    return (
-      <div className="bg-white py-20 px-4 sm:px-6 min-h-screen lg:px-8 scroll-mt-0 mx-auto" id='benefit'>
+      <div className="bg-white py-20 md:py-28 px-4 sm:px-6 lg:px-8 scroll-mt-0 mx-auto" id='benefit'>
          <div className="max-w-7xl mx-auto">
             <h2 className="text-lg font-semibold leading-7 text-blue-700 text-center mb-2">Benefit</h2>
             <h2 className="text-4xl font-bold text-black text-center mb-10">
                Benefit order di Websitein
             </h2>
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
                {benefits.map((benefit, index) => (
                   <div
                      key={index}
