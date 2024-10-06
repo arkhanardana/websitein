@@ -41,10 +41,10 @@ export default function Pricing() {
    return (
       <div className="bg-white min-h-screen py-24 px-4 sm:px-6 lg:px-8 scroll-mt-0" id="pricing">
          <div className="max-w-7xl mx-auto">
-            <h2 className="text-5xl font-bold text-black text-center mb-8">
-               Pilih jenis <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800">Paket Anda</span>
+            <h2 className="text-4xl font-bold text-black text-center mb-8">
+               Pilih jenis Paket Anda
             </h2>
-            <p className="text-xl text-gray-600 text-center mb-28">Buka potensi penuh layanan kami dengan rencana yang disesuaikan</p>
+            <p className="text-xl text-gray-600 text-center mb-28">Buka potensi penuh layanan kami dengan paket yang disesuaikan</p>
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-8">
                {plans.map((plan, index) => (
                   <div
