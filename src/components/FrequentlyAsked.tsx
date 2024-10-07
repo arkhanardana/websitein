@@ -11,7 +11,7 @@ const faqs = [
       answer: "Waktu pembuatan website bervariasi tergantung dari kompleksitas fitur dan desain. Untuk website sederhana, biasanya memakan waktu sekitar 3 hingga 6 hari. Untuk website yang kompleks, bisa memakan waktu 3 hingga 4 minggu."
    },
    {
-      question: "Apakah harus menyeediakan gambar & teks?",
+      question: "Apakah harus menyediakan gambar & teks?",
       answer: "Kami bisa membantu dalam menyediakan konten jika dibutuhkan. Namun, jika kamu sudah punya konten seperti teks atau gambar, itu akan sangat membantu untuk proses pembuatan."
    },
    {
