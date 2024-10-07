@@ -34,7 +34,7 @@ const faqs = [
 
 export default function FAQSection() {
    return (
-      <div className="w-full max-w-2xl mx-auto px-4 py-16 sm:py-24">
+      <div className="w-full max-w-2xl mx-auto px-4 py-16 sm:py-24 scroll-mt-0" id="faq">
          <h2 className="text-lg font-semibold leading-7 text-blue-700 text-center mb-2">FAQ</h2>
          <h2 className="text-4xl font-bold text-center mb-8">Paling Sering Ditanyakan</h2>
          <Accordion type="single" collapsible className="w-full">
