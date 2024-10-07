@@ -4,6 +4,8 @@ import About from "@/components/About";
 import ServicesSection from "@/components/Services";
 import Benefits from "@/components/Benefits";
 import Pricing from "@/components/Pricing";
+import FAQSection from "@/components/FrequentlyAsked";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 	return (
@@ -14,6 +16,8 @@ export default function Home() {
 			<ServicesSection />
 			<Benefits />
 			<Pricing />
+			<FAQSection />
+			<Footer />
 		</>
 	);
 }

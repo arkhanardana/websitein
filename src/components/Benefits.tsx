@@ -5,17 +5,17 @@ export default function Benefits() {
       {
          title: "Development Cepat",
          description: "Membangun website dengan cepat dan menerapkan fleksibel komponen",
-         icon: <Zap className="w-8 h-8" strokeWidth={2} />,
+         icon: <Zap className="w-8 h-8" strokeWidth={2} color='#fff' />,
       },
       {
          title: "Desain Responsif",
          description: "Membangun website yang menerapkan desain yang modern serta responsif",
-         icon: <PenTool className="w-8 h-8" strokeWidth={2} />,
+         icon: <PenTool className="w-8 h-8" strokeWidth={2} color='#fff' />,
       },
       {
          title: "Performa Tinggi",
          description: "Membangun website dengan performa yang tinggi serta aksesibilitas yang luas",
-         icon: <Rocket className="w-8 h-8" strokeWidth={2} />,
+         icon: <Rocket className="w-8 h-8" strokeWidth={2} color='#fff' />,
       },
    ]
 

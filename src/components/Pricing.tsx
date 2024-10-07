@@ -24,7 +24,7 @@ export default function Pricing() {
       },
       {
          name: "Gold",
-         price: 900,
+         price: 999,
          description: "Sempurna untuk perusahaan besar yang membutuhkan fitur lengkap",
          features: ["Custom domain", "Revisi sepuasnya", "SEO Premium", "Multi page", "Desain responsif", "Garansi selamanya", "Statis/Dinamis"],
          icon: <Shield className="h-8 w-8 mb-4 text-blue-500" />,
@@ -41,10 +41,12 @@ export default function Pricing() {
    return (
       <div className="bg-white min-h-screen py-24 px-4 sm:px-6 lg:px-8 scroll-mt-0" id="pricing">
          <div className="max-w-7xl mx-auto">
+            <h2 className="text-lg font-semibold leading-7 text-blue-700 text-center mb-2">Pricing</h2>
+
             <h2 className="text-4xl font-bold text-black text-center mb-8">
                Pilih jenis Paket Anda
             </h2>
-            <p className="text-xl text-gray-600 text-center mb-28">Buka potensi penuh layanan kami dengan paket yang disesuaikan</p>
+            <p className="text-lg md:text-xl text-gray-600 text-center mb-16">Buka potensi penuh layanan kami dengan paket yang disesuaikan</p>
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-8">
                {plans.map((plan, index) => (
                   <div
@@ -63,7 +65,7 @@ export default function Pricing() {
                         <p className={`text-5xl font-extrabold mb-2 ${plan.popular ? 'text-white' : 'text-gray-900'}`}>
                            {plan.price}K
                         </p>
-                        <p className={`text-sm ${plan.popular ? 'text-blue-100' : 'text-gray-600'}`}>
+                        <p className={`text-base ${plan.popular ? 'text-blue-100' : 'text-gray-600'}`}>
                            {plan.description}
                         </p>
                      </div>

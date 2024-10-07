@@ -27,7 +27,7 @@ const ServicesSection = () => {
          <div className="max-w-7xl mx-auto">
             <p className="my-2 max-w-2xl text-lg font-semibold text-blue-700 sm:mx-auto text-center">Services</p>
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Apa Layanan Websitein?</h2>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 sm:mx-auto text-center">
+            <p className="mt-4 max-w-2xl text-lg md:text-xl text-gray-500 sm:mx-auto text-center">
                Kami menyediakan berbagai layanan untuk memenuhi kebutuhan online anda. Dari profil perusahaan hingga
                website kustom, kami siap membantu.
             </p>

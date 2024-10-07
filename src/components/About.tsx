@@ -7,7 +7,7 @@ export default function About() {
 					<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-6xl">
 						&quot;Transformasi ide mu menjadi website yang modern di Websitein&quot;
 					</p>
-					<p className="mt-6 text-xl leading-8 text-gray-600">
+					<p className="mt-6 text-lg md:text-xl leading-8 text-gray-600">
 						Mau bikin Website professional yang menerapkan desain yang kreatif? Websitein adalah jawaban yang
 						bagus
 					</p>
