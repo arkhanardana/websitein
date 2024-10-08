@@ -18,8 +18,9 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="scroll-smooth">
 			<link rel="icon" href="/assets/logo.png" />
-			<body className={font.className}>{children}</body>
-			<FloatingCTA />
+			<body className={font.className}>{children}
+				<FloatingCTA />
+			</body>
 		</html>
 	);
 }
