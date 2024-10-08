@@ -21,7 +21,7 @@ export function HeroSection() {
 					</Link>
 				</div>
 			</div>
-			<h1 className="max-w-lg mx-auto px-4 text-4xl sm:text-5xl font-semibold pt-7 md:text-6xl md:max-w-2xl lg:max-w-4xl lg:px-8">
+			<h1 className="max-w-lg mx-auto px-4 text-3xl sm:text-4xl font-semibold pt-7 md:text-5xl lg:text-6xl md:max-w-2xl lg:max-w-4xl lg:px-8">
 				Solusi {""}
 				<span className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text">
 					Jasa Pembuatan Website {""}

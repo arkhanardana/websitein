@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "../styles/globals.css";
+import FloatingCTA from "@/components/FloatingCTA";
 
 const font = GeistSans;
 
@@ -18,6 +19,7 @@ export default function RootLayout({
 		<html lang="en" className="scroll-smooth">
 			<link rel="icon" href="/assets/logo.png" />
 			<body className={font.className}>{children}</body>
+			<FloatingCTA />
 		</html>
 	);
 }

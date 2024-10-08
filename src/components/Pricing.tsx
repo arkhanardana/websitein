@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 export default function Pricing() {
    const plans = [
       {
-         name: "Bronze",
+         name: "Pemula",
          price: 250,
          description: "Cocok untuk bisnis kecil atau personal yang baru memulai",
          features: ["Free domain .my.id", "3x revisi", "SEO Basic", "1 page", "Desain responsif", "Garansi selamanya", "Statis"],
@@ -14,7 +14,7 @@ export default function Pricing() {
          whatsappMessage: "Halo, saya tertarik dengan paket Bronze."
       },
       {
-         name: "Silver",
+         name: "Menengah",
          price: 550,
          description: "Ideal untuk bisnis menengah yang ingin tampil profesional",
          features: ["Free domain .com", "Revisi sepuasnya", "SEO Standar", "Multi page", "Desain responsif", "Garansi selamanya", "Statis/Dinamis"],
@@ -23,7 +23,7 @@ export default function Pricing() {
          whatsappMessage: "Halo, saya tertarik dengan paket Silver."
       },
       {
-         name: "Gold",
+         name: "Profesional",
          price: 999,
          description: "Sempurna untuk perusahaan besar yang membutuhkan fitur lengkap",
          features: ["Custom domain", "Revisi sepuasnya", "SEO Premium", "Multi page", "Desain responsif", "Garansi selamanya", "Statis/Dinamis"],
