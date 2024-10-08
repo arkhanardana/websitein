@@ -32,7 +32,7 @@ export function HeroSection() {
 				Websitein adalah Jasa Pembuatan Website dengan menerapkan desain yang kreatif serta modern
 			</p>
 			<div className="flex gap-x-2 pt-2 items-center justify-center">
-				<Link href={"https://wa.me/628989098432?text=Saya%20mau%20pesan"}>
+				<Link href={"#pricing"}>
 					<RainbowButton>Pesan Sekarang</RainbowButton>
 				</Link>
 			</div>
