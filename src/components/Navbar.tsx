@@ -55,8 +55,7 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`my-3 sticky top-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/70 backdrop-blur-lg shadow-md" : "bg-white"
-				}`}
+			className={`my-3 sticky top-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/70 backdrop-blur-lg shadow-md" : "bg-white"}`}
 			ref={navRef}
 		>
 			<div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -96,13 +95,12 @@ export default function Navbar() {
 				</div>
 			</div>
 			<div
-				className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"
-					} md:hidden`}
+				className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"} md:hidden`}
 			>
 				<div className="flex justify-end p-4">
 					<button
 						onClick={toggleMenu}
-						className="py-4 text-gray-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 "
+						className="py-4 text-gray-600 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
 						aria-label="Close menu"
 					>
 						<X className="w-6 h-6" />
@@ -122,5 +120,6 @@ export default function Navbar() {
 				</div>
 			</div>
 		</nav>
+
 	);
 }
