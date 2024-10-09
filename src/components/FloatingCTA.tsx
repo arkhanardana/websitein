@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
-import { Instagram, X, MessageCircle } from "lucide-react"
+import { Instagram, X, BotMessageSquare } from "lucide-react"
 import Image from 'next/image'
 
 export default function FloatingCTA() {
@@ -28,7 +28,7 @@ export default function FloatingCTA() {
                      className="w-16 h-16 bg-pink-500 hover:bg-pink-600 text-white border-none rounded-full shadow-lg flex items-center justify-center"
                      onClick={() => window.open('https://www.instagram.com/arkhanardna', '_blank')}
                   >
-                     <Instagram className="h-8 w-8" />
+                     <Instagram className="h-8 w-8 text-white" />
                      <span className="sr-only">Instagram</span>
                   </Button>
                </div>
@@ -40,7 +40,7 @@ export default function FloatingCTA() {
                   }`}
                onClick={() => setIsOpen(!isOpen)}
             >
-               {isOpen ? <X className="h-8 w-8" /> : <MessageCircle className="h-8 w-8" />}
+               {isOpen ? <X className="h-8 w-8 text-white" /> : <BotMessageSquare className="h-8 w-8 text-white" />}
                <span className="sr-only">{isOpen ? 'Close' : 'Open'} social media links</span>
             </Button>
          </div>

@@ -33,7 +33,7 @@ export function HeroSection() {
 			</p>
 			<div className="flex gap-x-2 pt-2 items-center justify-center">
 				<Link href={"#pricing"}>
-					<Button className="p-6 rounded-xl bg-blue-600 hover:bg-blue-800 text-sm md:text-md lg:text-base font-medium text-white">Pesan Sekarang</Button>
+					<Button className="p-[22px] md:p-6 rounded-xl bg-blue-600 hover:bg-blue-800 text-sm md:text-md lg:text-base font-medium text-white flex justify-center">Pesan Sekarang</Button>
 				</Link>
 			</div>
 		</section>
