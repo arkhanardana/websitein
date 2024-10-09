@@ -8,9 +8,9 @@ export default function Footer() {
    };
 
    return (
-      <footer className="bg-gray-900 text-white">
-         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <footer className="text-white bg-gray-900">
+         <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
                <div className="space-y-4">
                   <Link href="/" className="flex items-center space-x-2">
                      <Image src={logo.url} alt="logo-websitein" width={65} height={80} loading="lazy" />
@@ -25,7 +25,7 @@ export default function Footer() {
                   <ul className="grid grid-cols-2 gap-2">
                      {['Home', 'Pricing', 'About', 'Benefits', 'Services', 'FAQ'].map((item) => (
                         <li key={item}>
-                           <Link href={`#${item.toLowerCase()}`} className="hover:text-blue-400 transition-colors">
+                           <Link href={`#${item.toLowerCase()}`} className="transition-colors hover:text-blue-400">
                               {item}
                            </Link>
                         </li>
@@ -35,18 +35,18 @@ export default function Footer() {
                <div className="space-y-4">
                   <h3 className="text-lg font-semibold">Kontak Kami</h3>
                   <div className="flex space-x-4">
-                     <Link href="https://instagram.com/arkhanardna" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+                     <Link href="https://instagram.com/arkhanardna" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-blue-400">
                         <Instagram size={24} />
                         <span className="sr-only">Instagram</span>
                      </Link>
-                     <Link href="https://github.com/arkhanardana" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+                     <Link href="https://github.com/arkhanardana" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-blue-400">
                         <Github size={24} />
                         <span className="sr-only">GitHub</span>
                      </Link>
                   </div>
                </div>
             </div>
-            <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+            <div className="pt-8 mt-8 text-center text-gray-400 border-t border-gray-800">
                <p>&copy; {new Date().getFullYear()} Websitein. All rights reserved.</p>
             </div>
          </div>

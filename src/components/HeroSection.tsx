@@ -21,19 +21,21 @@ export function HeroSection() {
 					</Link>
 				</div>
 			</div>
-			<h1 className="max-w-lg mx-auto px-4 text-3xl sm:text-4xl font-semibold pt-7 md:text-5xl lg:text-6xl md:max-w-2xl lg:max-w-4xl lg:px-8">
+			<h1 className="max-w-lg px-4 mx-auto text-3xl font-semibold sm:text-4xl pt-7 md:text-5xl lg:text-6xl md:max-w-2xl lg:max-w-4xl lg:px-8">
 				Solusi {""}
-				<span className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text">
+				<span className="text-transparent bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 bg-clip-text">
 					Jasa Pembuatan Website {""}
 				</span>
 				Keren dan Modern
 			</h1>
-			<p className="text-center text-base md:text-xl font-medium max-w-lg md:max-w-2xl mx-auto px-4 text-gray-600/90 py-4">
+			<p className="max-w-lg px-4 py-4 mx-auto text-base font-medium text-center md:text-xl md:max-w-2xl text-gray-600/90">
 				Websitein adalah Jasa Pembuatan Website dengan menerapkan desain yang kreatif serta modern
 			</p>
-			<div className="flex gap-x-2 pt-2 items-center justify-center">
+			<div className="flex items-center justify-center pt-2 gap-x-2">
 				<Link href={"#pricing"}>
-					<Button className="p-[22px] md:p-6 rounded-xl bg-blue-600 hover:bg-blue-800 text-sm md:text-md lg:text-base font-medium text-white flex justify-center">Pesan Sekarang</Button>
+					<Button className="p-[22px] md:p-6 rounded-xl bg-blue-600 hover:bg-blue-800 text-sm md:text-md lg:text-base font-medium text-white flex justify-center">
+						Pesan Sekarang
+					</Button>
 				</Link>
 			</div>
 		</section>
