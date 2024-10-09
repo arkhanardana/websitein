@@ -41,7 +41,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className="scroll-smooth">
-			<link rel="icon" href="/assets/logo.png" />
+			<link rel="icon" href="/assets/logo.ico" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<body className={font.className}>
 				{children}
