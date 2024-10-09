@@ -1,12 +1,12 @@
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { cn } from "@/lib/utils";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
-import { RainbowButton } from "@/components/ui/rainbow-button";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 export function HeroSection() {
 	return (
-		<section className="bg-white text-center py-[6rem] lg:py-[16rem] flex flex-col items-center">
+		<section className="bg-white text-center py-[6rem] lg:py-[15.8rem] flex flex-col items-center">
 			<div className="flex items-center justify-center">
 				<div
 					className={cn(
@@ -33,7 +33,7 @@ export function HeroSection() {
 			</p>
 			<div className="flex gap-x-2 pt-2 items-center justify-center">
 				<Link href={"#pricing"}>
-					<RainbowButton>Pesan Sekarang</RainbowButton>
+					<Button className="p-6 rounded-xl bg-blue-600 hover:bg-blue-800 text-sm md:text-md lg:text-base font-medium text-white">Pesan Sekarang</Button>
 				</Link>
 			</div>
 		</section>

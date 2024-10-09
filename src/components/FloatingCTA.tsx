@@ -19,7 +19,7 @@ export default function FloatingCTA() {
                      className="w-16 h-16 bg-green-500 hover:bg-green-600 text-white border-none rounded-full shadow-lg flex items-center justify-center"
                      onClick={() => window.open('https://wa.me/62989098432', '_blank')}
                   >
-                     <Image src="/assets/wa.png" alt="WhatsApp" width={32} height={32} />
+                     <Image src="/assets/wa.png" alt="WhatsApp" width={32} height={32} priority={true} />
                      <span className="sr-only">WhatsApp</span>
                   </Button>
                   <Button
