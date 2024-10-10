@@ -6,8 +6,8 @@ import { Button } from "./ui/button";
 
 export function HeroSection() {
 	return (
-		<section className="bg-white text-center pt-[16rem] pb-28 lg:py-[20rem] flex flex-col items-center h-screen">
-			<div className="flex items-center justify-center">
+		<section className="bg-white text-center flex flex-col items-center justify-center min-h-screen">
+			<div className="flex items-center justify-center mb-8">
 				<div
 					className={cn(
 						"group rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in hover:cursor-pointer hover:bg-neutral-200 dark:border-white/5 dark:bg-neutral-900 dark:hover:bg-neutral-800"
