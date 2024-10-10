@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 
 export function HeroSection() {
 	return (
-		<section className="bg-white text-center pt-[16rem] pb-28 lg:py-[20rem] flex flex-col items-center">
+		<section className="bg-white text-center pt-[16rem] pb-28 lg:py-[20rem] flex flex-col items-center h-screen">
 			<div className="flex items-center justify-center">
 				<div
 					className={cn(
