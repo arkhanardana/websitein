@@ -65,7 +65,7 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/70 backdrop-blur-lg shadow-md" : "bg-white"
+			className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${isScrolled ? "bg-white/70 backdrop-blur-lg shadow-md" : "bg-white"
 				}`}
 			ref={navRef}
 		>
@@ -106,7 +106,7 @@ export default function Navbar() {
 				</div>
 			</div>
 			<div
-				className={`fixed inset-y-0 right-0 w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"
+				className={`fixed inset-y-0 right-0 w-64 z-50 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"
 					} md:hidden overflow-y-auto`}
 			>
 				<div className="flex justify-end p-4">
