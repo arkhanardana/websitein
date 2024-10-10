@@ -65,7 +65,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 w-full z-50 transition-colors duration-200 ${
         isScrolled && !isOpen ? "bg-white/70 backdrop-blur-lg shadow-md" : "bg-white"
       }`}
       ref={navRef}
