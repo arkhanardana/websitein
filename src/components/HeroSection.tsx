@@ -4,7 +4,7 @@ import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 import Link from "next/link";
 import { Button } from "./ui/button";
 
-export function HeroSection() {
+export default function HeroSection() {
 	return (
 		<section className="bg-white text-center pt-[16rem] pb-28 lg:py-[20rem] flex flex-col items-center">
 			<div className="flex items-center justify-center">
@@ -28,7 +28,7 @@ export function HeroSection() {
 				</span>
 				Keren dan Modern
 			</h1>
-			<p className="max-w-lg px-4 py-4 mx-auto text-base font-medium text-center md:text-xl md:max-w-2xl text-gray-600/90">
+			<p className="max-w-lg px-4 py-4 mx-auto text-base font-normal text-center md:text-xl md:max-w-2xl text-gray-600/90">
 				Websitein adalah Jasa Pembuatan Website dengan menerapkan desain yang kreatif serta modern
 			</p>
 			<div className="flex items-center justify-center pt-2 gap-x-2">
