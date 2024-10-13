@@ -11,7 +11,7 @@ export default function Pricing() {
          description: "Cocok untuk bisnis kecil atau personal yang baru memulai",
          features: ["Free domain .my.id", "3x revisi", "SEO Basic", "1 page", "Desain responsif", "Garansi selamanya", "Statis"],
          icon: <Cloud className="w-8 h-8 mb-4 text-blue-500" />,
-         whatsappMessage: "Halo, saya tertarik dengan paket Bronze."
+         whatsappMessage: "Halo, saya tertarik dengan paket Pemula."
       },
       {
          name: "Menengah",
@@ -20,7 +20,7 @@ export default function Pricing() {
          features: ["Free domain .com", "Revisi sepuasnya", "SEO Standar", "Multi page", "Desain responsif", "Garansi selamanya", "Statis/Dinamis"],
          icon: <Zap className="w-10 h-10 mb-4 text-white" />,
          popular: true,
-         whatsappMessage: "Halo, saya tertarik dengan paket Silver."
+         whatsappMessage: "Halo, saya tertarik dengan paket Menengah."
       },
       {
          name: "Profesional",
@@ -28,7 +28,7 @@ export default function Pricing() {
          description: "Sempurna untuk perusahaan besar yang membutuhkan fitur lengkap",
          features: ["Custom domain", "Revisi sepuasnya", "SEO Premium", "Multi page", "Desain responsif", "Garansi selamanya", "Statis/Dinamis"],
          icon: <Shield className="w-8 h-8 mb-4 text-blue-500" />,
-         whatsappMessage: "Halo, saya tertarik dengan paket Gold."
+         whatsappMessage: "Halo, saya tertarik dengan paket Professional."
       },
    ]
 
