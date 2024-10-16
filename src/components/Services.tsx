@@ -23,9 +23,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) =
 
 const ServicesSection = () => {
    return (
-      <div className="bg-gray-50 px-4 py-20 sm:px-6 lg:px-8 scroll-mt-0" id="services">
+      <div className="bg-gray-50 px-4 py-20 sm:px-6 lg:px-8 scroll-mt-3" id="services">
          <div className="max-w-7xl mx-auto">
-            <p className="my-2 max-w-2xl text-lg font-semibold text-blue-700 sm:mx-auto text-center">Services</p>
+            <p className="my-2 max-w-2xl text-lg font-semibold text-blue-700 sm:mx-auto text-center">Layanan</p>
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Apa Layanan Websitein?</h2>
             <p className="mt-4 max-w-2xl text-lg md:text-xl text-gray-500 sm:mx-auto text-center">
                Kami menyediakan berbagai layanan untuk memenuhi kebutuhan online anda. Dari profil perusahaan hingga
