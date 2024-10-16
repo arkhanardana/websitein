@@ -10,7 +10,7 @@ export default function Pricing() {
          price: 250,
          description: "Cocok untuk bisnis kecil atau personal yang baru memulai",
          features: ["Free domain .my.id", "3x revisi", "SEO Basic", "1 page", "Desain responsif", "Garansi selamanya", "Statis"],
-         icon: <Cloud className="w-8 h-8 mb-4 text-white" />, // Ubah warna menjadi putih
+         icon: <Cloud className="w-8 h-8 mb-4 text-white" />,
          whatsappMessage: "Halo, saya tertarik dengan paket Pemula.",
       },
       {
@@ -18,7 +18,7 @@ export default function Pricing() {
          price: 550,
          description: "Ideal untuk bisnis menengah yang ingin tampil profesional",
          features: ["Free domain .com", "Revisi sepuasnya", "SEO Standar", "Multi page", "Desain responsif", "Garansi selamanya", "Statis/Dinamis"],
-         icon: <Zap className="w-10 h-10 mb-4 text-white" />, // Sudah berwarna putih
+         icon: <Zap className="w-10 h-10 mb-4 text-white" />, 
          popular: true,
          whatsappMessage: "Halo, saya tertarik dengan paket Menengah.",
       },
@@ -27,7 +27,7 @@ export default function Pricing() {
          price: 999,
          description: "Sempurna untuk perusahaan besar yang membutuhkan fitur lengkap",
          features: ["Custom domain", "Revisi sepuasnya", "SEO Premium", "Multi page", "Desain responsif", "Garansi selamanya", "Statis/Dinamis"],
-         icon: <Shield className="w-8 h-8 mb-4 text-white" />, // Ubah warna menjadi putih
+         icon: <Shield className="w-8 h-8 mb-4 text-white" />,
          whatsappMessage: "Halo, saya tertarik dengan paket Professional.",
       },
    ];
@@ -41,7 +41,7 @@ export default function Pricing() {
    return (
       <div className="min-h-screen px-4 py-24 bg-white sm:px-6 lg:px-8 scroll-mt-0" id="pricing">
          <div className="mx-auto max-w-7xl">
-            <h2 className="mb-2 text-lg font-semibold leading-7 text-center text-blue-700">Pricing</h2>
+            <h2 className="mb-2 text-lg font-semibold leading-7 text-center text-blue-700">Harga</h2>
 
             <h2 className="mb-8 text-4xl font-bold text-center text-black">Pilih jenis Paket Anda</h2>
             <p className="mb-16 text-lg text-center text-gray-600 md:text-xl">
